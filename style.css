@@ -1,0 +1,28 @@
+*{
+    margin: 10;
+    height: 600px;
+    border: 1px solid;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item1{
+    height: 100px;
+    width: 100px;
+    align-self: flex-start;
+    background-color: red;
+}
+.item2{
+    height: 100px;
+    width: 100px;
+   
+    background-color: red;
+}
+.item3{
+    height: 100px;
+    width: 100px;
+    align-self: flex-end;
+    background-color: red;
+}
